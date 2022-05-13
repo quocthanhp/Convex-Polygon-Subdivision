@@ -1,0 +1,157 @@
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:runtime.adjustframe
+   fun:runtime.gentraceback
+   fun:runtime.copystack
+   fun:runtime.newstack
+   fun:runtime.morestack
+   fun:runtime.rt0_go
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:runtime.adjustframe
+   fun:runtime.gentraceback
+   fun:runtime.copystack
+   fun:runtime.newstack
+   fun:runtime.morestack
+   fun:runtime.rt0_go
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:runtime.adjustpointer
+   fun:runtime.adjustframe
+   fun:runtime.gentraceback
+   fun:runtime.copystack
+   fun:runtime.newstack
+   fun:runtime.morestack
+   fun:runtime.rt0_go
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:runtime.adjustpointer
+   fun:runtime.adjustframe
+   fun:runtime.gentraceback
+   fun:runtime.copystack
+   fun:runtime.newstack
+   fun:runtime.morestack
+   fun:runtime.rt0_go
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:x_cgo_sys_thread_create
+   fun:_rt0_amd64_lib
+   fun:call_init
+   fun:_dl_init
+   obj:/usr/lib/ld-2.33.so
+   obj:*
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:_cgo_sys_thread_start
+   fun:runtime.asmcgocall
+   obj:*
+   fun:runtime.newm
+   fun:runtime.main.func1
+   fun:runtime.systemstack
+   obj:/mnt/share/ed/libX11.so
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:_cgo_sys_thread_start
+   fun:runtime.asmcgocall
+   obj:*
+   fun:runtime.newm
+   fun:runtime.startm
+   fun:runtime.newproc1
+   fun:runtime.newproc.func1
+   fun:runtime.systemstack
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:_cgo_sys_thread_start
+   fun:runtime.asmcgocall
+   obj:*
+   fun:runtime.newm
+   fun:runtime.startm
+   fun:runtime.handoffp
+   fun:runtime.stoplockedm
+   fun:runtime.schedule
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:_cgo_sys_thread_start
+   fun:runtime.asmcgocall
+   obj:*
+   fun:runtime.malg.func1
+   fun:runtime.systemstack
+   obj:/mnt/share/ed/libX11.so
+   fun:runtime.rt0_go
+}
+{
+   <edstem-suppression>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:x_cgo_sys_thread_create
+   fun:_rt0_amd64_lib
+   fun:call_init
+   fun:_dl_init
+   obj:/usr/lib/ld-2.33.so
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:_cgo_sys_thread_start
+   fun:runtime.asmcgocall
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+}
+
